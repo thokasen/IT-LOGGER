@@ -62,7 +62,7 @@ export default (state = initialState, action) => {
     case SET_LOADING:
       return {
         ...state,
-        loading: false
+        loading: true
       };
     case LOGS_ERROR:
       console.error(action.payload);
